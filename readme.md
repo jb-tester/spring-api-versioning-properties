@@ -1,0 +1,1 @@
+## Spring API Versioning test: use config properties for versioning configuration
