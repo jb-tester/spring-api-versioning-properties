@@ -14,3 +14,5 @@ Bugs found:
 - no HTTP Requests generation for configurations other than query parameter
 - incorrect HTTP request for `1.2+`-like versions
 - programmatic configurer is not detected unless the header-based versioning is specified
+- no support for `spring.mvc.apiversion.use.media-type-parameter` property creating: it would be nice to have completion for mediatypes and auto-inserted `[]`
+
