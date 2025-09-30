@@ -6,7 +6,7 @@ Bugs found:
 - no versions are shown in Endpoints view
 - configured headers are highlighted as 'Unknown HTTP header'
 - delete `application.properties`, invoke intention in the `@RequestMapping#version`:
-  no results. Should create the property in the `application.yaml`
+  no results. Should create the property in the `application.yaml` - fixed
 - false-positive inspection for version with some prefix
 - no versions in Structure view for functional routes
 - no intention in the functional routes with version
