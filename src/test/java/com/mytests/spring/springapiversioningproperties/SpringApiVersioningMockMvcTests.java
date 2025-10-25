@@ -28,13 +28,13 @@ class SpringApiVersioningMockMvcTests {
                 .andExpect(MockMvcResultMatchers.content().string("annotated test1 with path variable 1, version 1.1"));
     }
 
-    @TestConfiguration
+    /*@TestConfiguration
     static class SpringApiVersioningMockMvcTestsConfig implements MockMvcBuilderCustomizer {
         @Override
         public void customize(ConfigurableMockMvcBuilder<?> builder) {
             builder.apiVersionInserter(ApiVersionInserter.useQueryParam("version-param"));
         }
-    }
+    }*/
 
 
 }

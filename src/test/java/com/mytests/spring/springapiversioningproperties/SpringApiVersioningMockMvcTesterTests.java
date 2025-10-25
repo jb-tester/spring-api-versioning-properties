@@ -24,13 +24,13 @@ class SpringApiVersioningMockMvcTesterTests {
                 .apiVersion(1.1).assertThat().hasStatusOk();
     }
 
-    @TestConfiguration
+   /* @TestConfiguration
     static class SpringApiVersioningPropertiesApplicationTestsConfig implements MockMvcBuilderCustomizer {
         @Override
         public void customize(ConfigurableMockMvcBuilder<?> builder) {
             builder.apiVersionInserter(ApiVersionInserter.useQueryParam("version-param"));
         }
-    }
+    }*/
 
 
 }
